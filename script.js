@@ -4,7 +4,7 @@ app.controller('myCtrl', function($scope) {
 	$scope.map = { center: { latitude: 49.8558443, longitude: 24.0242727 }, zoom: 17 };
 });
 
-app.directive('testing', function() {//щоб використати сервіс, його треба згадати в атрибутах функції (н-д, після attr додати calculator)
+app.directive('testing', function() {
 		return {
 		restrict: 'AE',
 		template: '<p>just for test!</p>',
